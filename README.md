@@ -32,6 +32,9 @@ https://github.com/hhh88261/AIS-Custom-Server
 ### 프로젝트 아키텍처
 ![Image](https://github.com/user-attachments/assets/9a21127b-2a39-4f6c-b945-d9cda011596c)
 
+### ERD
+![Image](https://github.com/user-attachments/assets/0eb312bf-c9cd-45cb-acd3-949be7af0a5a)
+
 ## 주요 기능
 ### 추적 기능
 - 선박의 위치가 검은색 마커로 표시되며 파란색 선으로 선박의 10분뒤 위치를 알려줍니다.
