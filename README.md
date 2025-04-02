@@ -30,7 +30,7 @@ https://github.com/hhh88261/Vessel-location-information-coastal-AIS-API
 https://github.com/hhh88261/AIS-Custom-Server
 
 ### 프로젝트 아키텍처
-
+![Image](https://github.com/user-attachments/assets/9a21127b-2a39-4f6c-b945-d9cda011596c)
 
 ### 프로젝트 후기
 
