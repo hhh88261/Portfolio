@@ -43,7 +43,7 @@ https://github.com/hhh88261/AIS-Custom-Server
 ![Image](https://github.com/user-attachments/assets/d79a5ca1-fc32-4937-83b2-43c8aa646326)
 
 ### 회원가입 기능
-
+![Image](https://github.com/user-attachments/assets/49d80740-ea2c-4063-ae49-8d45cba005d1)
 
 ### 추적 기능
 - 선박의 위치가 검은색 마커로 표시되며 파란색 선으로 선박의 10분뒤 위치를 알려줍니다.
