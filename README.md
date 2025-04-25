@@ -6,9 +6,9 @@
 - 프로젝트 인원 : 1명
 
 ### 기술 스택
-<img src="https://img.shields.io/badge/vue.js-41B883?style=for-the-badge&logo=vue.js&logoColor=white"> : 여러개의 마커가 웹상에 표시되야 했기에 렌더링이 빠른 vue를 선택했습니다
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"> : java.net으로 TCP 통신을 구현하고 maven에서 AIS 메시지를 파싱하는 의존성을 사용하기 위해 사용했습니다.
-<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> : Spring mvc로 간편하게 api를 구현하기 위해 사용했습니다.
+<img src="https://img.shields.io/badge/vue.js-41B883?style=for-the-badge&logo=vue.js&logoColor=white"> : 여러개의 마커가 웹상에 표시되야 했기에 렌더링이 빠른 vue를 선택했습니다  
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"> : java.net으로 TCP 통신을 구현하고 maven에서 AIS 메시지를 파싱하는 의존성을 사용하기 위해 사용했습니다.  
+<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> : Spring mvc로 간편하게 api를 구현하기 위해 사용했습니다.  
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)  
 
 ### 프로젝트 소개
