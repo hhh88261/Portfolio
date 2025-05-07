@@ -87,7 +87,7 @@ https://github.com/hhh88261/AIS-Custom-Server
 
 Async 예외 처리 : 예외가 발생했을 때 시스템은 계속 동작하되 클라이언트에게 에러 발생 메시지 전송
 
-## 기능 분리
+### 기능 분리
 
 통신 계층   
 - TcpReciver : 서버로 부터 메시지 수신 담당
