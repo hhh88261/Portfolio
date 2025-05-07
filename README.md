@@ -79,7 +79,7 @@ https://github.com/hhh88261/AIS-Custom-Server
 ![Image](https://github.com/user-attachments/assets/03120119-992e-4074-a9aa-b8ab4cfb21a1)
 
 
-## 리팩토링
+## 디코딩 서버 리팩토링
 
 단일 책임 원칙 준수 : 한 클래스가 담당하고 있던 여러 기능들을 분리
 
