@@ -106,7 +106,7 @@ Config 파일
 - MyBatisDbHandler : Configuration.xml 파일을 로드하여 db 연결 담당
 
 ## 인덱스  
-가설 : 
+가설 :   
 테이블을 조회할 때 시작시각(HH) ~ 종료시각(HH) 조건으로 검색하므로 Full Scan이 필요함,  
 인덱스를 활용하면 탐색 비용이 감소할 것임
 
