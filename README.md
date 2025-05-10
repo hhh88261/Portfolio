@@ -52,10 +52,6 @@ https://github.com/hhh88261/AIS-Custom-Server
 ### ERD
 ![Image](https://github.com/user-attachments/assets/0eb312bf-c9cd-45cb-acd3-949be7af0a5a)
 
-- 하나의 테이블에 데이터량이 지속적으로 누적됨에 따라 인덱스 조회 성능 저하, SELECT 성능 저하 문제 발생했습니다. 
-- 데이터가 "날짜" 기반으로 검색된다는 점에서 "날짜별"(ex : shiproute-20250101. shiproute-20250102) 로 테이블을 분리했습니다.
-- 필요한 날짜 테이븖나 조회함에 따라 검색 범위가 좁혀지고 검색 속도가 향상되었습니다.
-
 ## 주요 기능
 
 ### 로그인 기능
