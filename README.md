@@ -83,24 +83,6 @@ https://github.com/hhh88261/AIS-Custom-Server
 
 Async 예외 처리 : 예외가 발생했을 때 시스템은 계속 동작하되 클라이언트에게 에러 발생 메시지 전송
 
-### 기능 분리
-
-통신 계층   
-- TcpReciver : 서버로 부터 메시지 수신 담당
-- Transmit : 클라이언트에게 메시지 송신 담당
-- WebSocket : 웹 소켓 연결과 엔드포인트 담당
-
-디코딩 계층
-- Calculator : 선박의 미래 항로 계산 담당
-- Decoder : AIS 신호 디코딩
-- ExternalApi : 해양수산부 API 연결 담당  
-
-DB 계층
-- Dao : 가공된 데이터 저장 담당
-
-Config 파일
-- MyBatisDbHandler : Configuration.xml 파일을 로드하여 db 연결 담당
-
 ### 인덱스 / 파티셔닝  
 가설 :   
 현재 선박의 과거항적을 저장하는 테이블이 있다. 
@@ -115,9 +97,6 @@ case3 : 인덱스, 테이블 분할 수행
 ![Image](https://github.com/user-attachments/assets/84413299-c0e2-485c-99bb-bd81a12ab1a8)
 
 결과 분석 :  
-
-
-
 
 
 ## 프로젝트 후기
