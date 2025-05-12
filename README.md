@@ -120,7 +120,7 @@ case3 : 인덱스, 테이블 분할 수행
 다수의 사용자가 여러 테이블을 조회하게 된다면 처리량이 급증
 
 결과 분석 :  
-![Image](https://github.com/user-attachments/assets/e300a9b1-f986-4a26-bfc0-e8c2c1fc3f50)
+![Image](https://github.com/user-attachments/assets/cd4f7dd8-c365-462e-949f-0cf7ed513f95)
 
 
 ## 프로젝트 후기
