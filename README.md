@@ -65,7 +65,7 @@ https://github.com/hhh88261/AIS-Custom-Server
 
 ### 로그인 기능  
 - 아이디와 비밀번호를 입력해 로그인한다.  
-- DB에 유저 정보가 저장되어 있다면 Refresh Token과 Access Token을 발급받는다.  
+- Accounts 테이블에 유저 정보가 있다면 Refresh Token과 Access Token을 발급받는다.  
 - 로그인에 성공하면 /Main 으로 이동한다.   
 ![Image](https://github.com/user-attachments/assets/d79a5ca1-fc32-4937-83b2-43c8aa646326)
 
