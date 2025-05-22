@@ -11,7 +11,7 @@
 
 ## 기술 스택
 <img src="https://img.shields.io/badge/vue.js-41B883?style=for-the-badge&logo=vue.js&logoColor=white"> : 수백개의 마커가 웹상에 표시되야 했기에 렌더링이 빠른 vue를 선택  
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"> : java.net으로 소켓 통신을 구현하고 maven에서 AIS 메시지를 파싱하는 의존성을 사용하기 위해 채택.  
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"> : java.net으로 소켓 통신을 구현하고 maven에서 AIS 메시지를 파싱하는 의존성을 사용하기 위해 채택  
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> : Spring mvc로 api를 구현하기 위해 채택  
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) 
 
@@ -21,7 +21,7 @@
 - 프로젝트 인원 : 1명
 
 ## 프로젝트 소개
-- 이 프로그램은 AIS(자동식별시스템)를 활용하여 해양에서 운항하고 있는 선박을 추적하거나 항로를 확인할 수 있고 선박의 국적, 속도, 방향 등과 같은 제원정보도 모니터링할 수 있습니다.
+- 이 프로그램은 AIS(자동식별시스템)를 활용하여 해양에서 운항하고 있는 선박을 추적하거나 항로를 확인할 수 있고 선박의 국적, 속도, 방향 등과 같은 제원정보도 모니터링할 수 있다.
 
 > 백엔드  
 > 송신 서버    
