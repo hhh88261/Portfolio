@@ -70,7 +70,9 @@ https://github.com/hhh88261/AIS-Custom-Server
 ![Image](https://github.com/user-attachments/assets/d79a5ca1-fc32-4937-83b2-43c8aa646326)
 
 
-### 회원가입 기능
+### 회원가입 기능  
+- 이름, 이메일, 비밀번호를 입력하여 회원가입을 할 수 있다.  
+- 유저 정보는 Member 테이블에 저장된다.
 ![Image](https://github.com/user-attachments/assets/49d80740-ea2c-4063-ae49-8d45cba005d1)
 
 
