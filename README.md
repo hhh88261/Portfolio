@@ -134,7 +134,7 @@ Case2 : 초당 5개의 데이터 5분 간 수신
 Case3 : 초당 10개의 데이터 5분 간 수신    
 
 결과 정리 :   
-![Image](https://github.com/user-attachments/assets/10a1c96e-03f1-4715-8559-b318484daa00)
+![Image](https://github.com/user-attachments/assets/f44090e4-1ed3-40df-883d-038eeb567284)  
 
 결과 분석 :   
 전체적으로 수신 데이터 양이 늘어날수록 NIO 처리량이 높아지는 경향을 보였다.  
