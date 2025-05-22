@@ -72,10 +72,9 @@ https://github.com/hhh88261/AIS-Custom-Server
 
 ### 회원가입 기능  
 - 이름, 이메일, 비밀번호를 입력하여 회원가입을 할 수 있다.  
-- 유저 정보는 Member 테이블에 저장된다.
+- 유저 정보는 Accounts 테이블에 저장된다.  
+- '회원가입' 버튼을 클릭하면 로그인 화면으로 돌아간다.  
 ![Image](https://github.com/user-attachments/assets/49d80740-ea2c-4063-ae49-8d45cba005d1)
-
-
 
 ### 추적 기능
 - 선박의 위치가 검은색 마커로 표시되며 파란색 선으로 선박의 10분뒤 위치를 예측한다.
