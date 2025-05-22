@@ -23,17 +23,17 @@
 ## 프로젝트 소개
 - 이 프로그램은 AIS(자동식별시스템)를 활용하여 해양에서 운항하고 있는 선박을 추적하거나 항로를 확인할 수 있고 선박의 국적, 속도, 방향 등과 같은 제원정보도 모니터링할 수 있습니다.
 
+> 백엔드  
+> 송신 서버    
+https://github.com/hhh88261/AIS-Custom-Server
+> Parsing (파싱 + 수신)    
+https://github.com/hhh88261/Marine-vessel-information-Server
+> Spring Boot (Rest)
+https://github.com/hhh88261/Vessel-location-information-coastal-AIS-API
+
 > 프론트엔드(Vue)     
 https://github.com/hhh88261/Marine-vessel-information-App
 
-> Parsing 서버(파싱 + 수신)    
-https://github.com/hhh88261/Marine-vessel-information-Server
-
-> API(Spring Boot + Rest API)   
-https://github.com/hhh88261/Vessel-location-information-coastal-AIS-API
-
-> 송신 서버    
-https://github.com/hhh88261/AIS-Custom-Server
 
 ## 프로젝트 아키텍처
 ![Image](https://github.com/user-attachments/assets/9a21127b-2a39-4f6c-b945-d9cda011596c)
