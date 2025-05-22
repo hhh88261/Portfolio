@@ -6,8 +6,7 @@
 3. 프로젝트 소개  
 4. 아키텍처   
 5. 주요 기능   
-6. 리팩토링  
-7. 프로젝트 후기  
+6. 리팩토링 및 성능개선 
 
 ## 기술 스택
 <img src="https://img.shields.io/badge/vue.js-41B883?style=for-the-badge&logo=vue.js&logoColor=white"> : 수백개의 마커가 웹상에 표시되야 했기에 렌더링이 빠른 vue를 선택  
