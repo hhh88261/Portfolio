@@ -26,9 +26,9 @@
 > 백엔드  
 > 송신 서버    
 https://github.com/hhh88261/AIS-Custom-Server  
-> Parsing (파싱 + 수신)      
+> Parsing 서버(파싱 + 수신)      
 https://github.com/hhh88261/Marine-vessel-information-Server  
-> Spring Boot (Rest)  
+> Spring Boot (REST)  
 https://github.com/hhh88261/Vessel-location-information-coastal-AIS-API  
 
 > 프론트엔드(Vue)     
