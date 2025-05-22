@@ -10,10 +10,10 @@
 7. 프로젝트 후기  
 
 ## 기술 스택
-<img src="https://img.shields.io/badge/vue.js-41B883?style=for-the-badge&logo=vue.js&logoColor=white"> : 수백개의 마커가 웹상에 표시되야 했기에 렌더링이 빠른 vue를 선택했습니다  
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"> : java.net으로 소켓 통신을 구현하고 maven에서 AIS 메시지를 파싱하는 의존성을 사용하기 위해 사용했습니다.  
-<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> : Spring mvc로 간편하게 api를 구현하기 위해 사용했습니다.  
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)  
+<img src="https://img.shields.io/badge/vue.js-41B883?style=for-the-badge&logo=vue.js&logoColor=white"> : 수백개의 마커가 웹상에 표시되야 했기에 렌더링이 빠른 vue를 선택  
+<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white"> : java.net으로 소켓 통신을 구현하고 maven에서 AIS 메시지를 파싱하는 의존성을 사용하기 위해 채택.  
+<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> : Spring mvc로 api를 구현하기 위해 채택  
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) 
 
 ## 프로젝트 개요
 - 실시간 선박 추적 프로그램
@@ -23,39 +23,35 @@
 ## 프로젝트 소개
 - 이 프로그램은 AIS(자동식별시스템)를 활용하여 해양에서 운항하고 있는 선박을 추적하거나 항로를 확인할 수 있고 선박의 국적, 속도, 방향 등과 같은 제원정보도 모니터링할 수 있습니다.
 
-> 프론트엔드 서버     
+> 프론트엔드(Vue)     
 https://github.com/hhh88261/Marine-vessel-information-App
 
-> 백엔드 서버    
+> Parsing 서버(파싱 + 수신)    
 https://github.com/hhh88261/Marine-vessel-information-Server
 
-> API    
+> API(Spring Boot + Rest API)   
 https://github.com/hhh88261/Vessel-location-information-coastal-AIS-API
 
-> AIS 서버    
+> 송신 서버    
 https://github.com/hhh88261/AIS-Custom-Server
 
 ## 프로젝트 아키텍처
 ![Image](https://github.com/user-attachments/assets/9a21127b-2a39-4f6c-b945-d9cda011596c)
-
-
-### 흐름
+#### 구조
 - AIS 신호 송신서버, 수신서버, API 서버, 클라이언트로 구성된다.  
-- DB는 Oracle을 사용한다.  
-- 송신서버는 원시 AIS 메시지를 생성하여 수신서버로 전송한다.  
-- 수신 서버는 TCP 소켓을 사용해 데이터를 수신받는다. 데이터 가공 및 DB 저장 후 Web Socket을 통해 클라이언트에게 메시지를 송신한다.  
+- 사용자 요청은 REST API 기반으로 처리한다.
+- JWT 토큰으로 로그인 인증을 관리한다. Refresh Token과 Access Token을 분리하여 인증정보 탈취 위험에 대비했다.
+  
+#### 흐름  
+- 송신서버에서 원시 AIS 메시지를 생성하여 수신서버로 전송한다.  
+- 파싱 서버에서 TCP 소켓을 사용해 데이터를 수신받는다. 데이터 가공 및 DB 저장 후 Web Socket을 통해 클라이언트에게 메시지를 송신한다.  
 - 클라이언트에서 수신받은 데이터를 바탕으로 화면에 선박 위치를 표시한다.
-- Spring Boot 서버는 로그인, 회원가입, JWT 토큰 관리, 선박 과거항적 검색, 선박 검색과 같은 사용자 요청을 처리한다.  
 
 ### 설계 근거  
-- 유지보수성, 실시간성, 이식성에 초점을 두어 설계했다.
-
-#### 구조    
-- 송신서버는 실제 AIS 서버와 연결될 수 있으므로 송신과 수신 + 파싱 모듈로 분리했다.    
-
-#### 통신방식  
-- 수신서버가 일방적으로 수신하는 형태이기 때문에 양방향 통신이 필요 없으므로 단방향 TCP 통신 방식을 사용했다.    
-- 클라이언트는 수신서버에 요청을 하여 데이터를 받는 형태이기 때문에 지속적인 연결을 위해 WebSocket 통신 방식을 사용했다.    
+- 유지보수성, 실시간성, 이식성에 초점을 두어 설계했다.  
+- 송신서버는 실제 AIS 서버로 대체될 수 있으므로 송신과 수신 + 파싱 모듈로 분리했다.    
+- 파싱서버가 일방적으로 수신하는 형태이기 때문에 양방향 통신이 필요 없으므로 단방향 TCP 통신 방식을 사용했다.      
+- 클라이언트는 수신서버에 요청을 하여 데이터를 받는 형태이기 때문에 지속적인 연결을 위해 WebSocket 통신 방식을 사용했다.      
 
 
 ### ERD
