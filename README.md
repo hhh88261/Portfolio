@@ -59,7 +59,7 @@ https://github.com/hhh88261/Marine-vessel-information-App
 - 인증정보 탈취 위험에 대비하기 위해 JWT를 도입했다. Refresh Token과 Access Token을 분리하여 보안성을 강화했다.  
 
 #### 고려사항   
-- Kafka : 현재는 단순한 수신->저장->시각화 형태이기 때문에 Kafka와 같은 대규모 분산 스트림 처리 불필요,
+- Kafka 도입 : 현재는 단순한 수신->저장->시각화 형태이기 때문에 Kafka와 같은 대규모 분산 스트림 처리 불필요,
   다만 향후에 복잡한 기능이 추가된다면 도입할 필요가 있음  
   
 ### ERD
