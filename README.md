@@ -27,7 +27,7 @@
 https://github.com/hhh88261/AIS-Custom-Server  
 > 스트리밍 서버  
 https://github.com/hhh88261/AIS-Parser/blob/main/README.md   
-> REST API 서버 
+> REST API 서버   
 https://github.com/hhh88261/Vessel-location-information-coastal-AIS-API  
 
 > 프론트엔드(Vue)     
