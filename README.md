@@ -5,7 +5,7 @@
 - Spring Boot, Vue.js  
 
 언어  
-- Java, Java Script  
+- Java, JavaScript  
 
 ## 프로젝트 개요
 - 실시간 선박 추적 프로그램
