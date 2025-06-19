@@ -1,10 +1,11 @@
 # 실시간 선박 추척 GIS 어플리케이션 
 
 ## 기술 스택
-<img src="https://img.shields.io/badge/vue.js-41B883?style=for-the-badge&logo=vue.js&logoColor=white">
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white">
-<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">  
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) 
+프레임워크  
+- Spring Boot, Vue.js  
+
+언어  
+- Java, Java Script  
 
 ## 프로젝트 개요
 - 실시간 선박 추적 프로그램
